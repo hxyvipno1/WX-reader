@@ -1,0 +1,17 @@
+<view class='detailscontainer'>
+  <view class='topcontainer'>
+    <image class='bigpic' src='{{booksDetails.images}}'></image>
+    <text class='bookname'>{{booksDetails.name}}</text>
+     <text>作者:{{booksDetails.author}}</text>
+    <text>分类:{{booksDetails.type}}</text>
+    <text>{{booksDetails.wordcount}} 万字</text>
+  </view>
+  <button size='mini' type='default' style='width:335rpx;margin-right:20rpx;' bindtap="readClick" data-id='{{booksDetails.id}}'>开始阅读</button>
+  <button size='mini' type='warn' style='width:335rpx;'>收藏</button>
+  <view class='bookinfo'>{{booksDetails.intro}}</view>
+  <view class='tagcontainer'>
+    <text class='bookname'>类别标签</text>
+    <text class='tag'>{{booksDetails.type}}</text>
+  </view>
+  
+</view>

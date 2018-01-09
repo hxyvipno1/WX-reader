@@ -1,0 +1,59 @@
+.detailscontainer{
+  padding: 20rpx;
+}
+
+.topcontainer{
+  display: block;
+  height: 250rpx;
+  padding-bottom: 30rpx;
+}
+
+.bigpic{
+  display:block;
+  float: left;
+  width: 200rpx;
+  height: 250rpx;
+  padding-right: 30rpx;
+}
+
+text{
+  display: block;
+  font-size: 24rpx;
+  padding-bottom: 30rpx;
+}
+
+.bookname{
+  font-size: 35rpx;
+  font-weight: bold;
+}
+
+.bookinfo{
+  text-indent: 2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 5;
+  font-size: 30rpx;
+  line-height: 40rpx;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+   padding: 30rpx 0;
+   border-bottom: 1px solid #ddd;
+   margin-bottom: 30rpx;
+}
+
+.tag{
+  font-size: 30rpx;
+  padding: 15rpx 20rpx;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100rpx;
+  margin-left: 30rpx;
+  text-align: center;
+  margin-bottom: 30rpx;
+}
+
+.tagcontainer{
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30rpx;
+}

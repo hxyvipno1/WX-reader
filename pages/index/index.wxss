@@ -1,0 +1,98 @@
+/**index.wxss**/
+
+
+
+swiper{
+   height: 359rpx;
+}
+
+image{
+   width:750rpx;
+   height: 359rpx;
+}
+
+.tab-cantainer{
+  overflow: hidden;
+}
+
+
+.tab-box{
+  width:150rpx;
+  box-sizing: content-box;
+  font-size: 24rpx;
+  line-height: 84rpx;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-bottom: 1px solid transparent;
+}
+
+.tab-box-active{
+  border-bottom: 1px solid #e64340;
+}
+
+.book-container{
+  display: flex;
+  justify-content: space-between;  
+  flex-wrap:wrap;
+  box-sizing: content-box;
+  padding: 24rpx;
+}
+
+.book-box{
+  width: 100%;
+  height: 240rpx;
+  background-color: #fff;
+  overflow: hidden;
+  margin-bottom: 24rpx;
+  border-bottom: 1px solid #e64340; 
+
+}
+
+.book-box image{
+   width: 200rpx;
+   height: 200rpx;
+   float: left;
+   margin-right: 50rpx;
+}
+
+text{
+  display: block;
+  font-size: 24rpx;
+}
+
+.bookname{
+  font-size: 35rpx;
+  font-weight: bold;
+}
+
+.bookinfo{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-clamp: 2;
+    font-size: 24rpx;
+    color: #969ba3;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+   margin: 15rpx 0;
+}
+
+.author{
+  float: left;
+  padding: 20rpx 0;
+}
+
+.countdata{
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 0 2px;
+    float: right;
+    margin: 20rpx 0;
+    color: #ed424b;
+}
+
+.countdata:nth-child(1){
+  color: #4284ed;
+}

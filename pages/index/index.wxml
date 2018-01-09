@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<swiper indicator-dots autoplay interval="2000">
+   <swiper-item><image src="/images/simg.jpg"></image></swiper-item>
+   <swiper-item><image src="/images/img_info.jpg"></image></swiper-item>
+   <swiper-item><image src="/images/timg2.jpg"></image></swiper-item>
+</swiper>
+<view class="tab-cantainer">
+    <view class="tab-box {{ selectedbox==item.unit ? 'tab-box-active' : '' }}" wx:for-items="{{booktype}}" wx:key="{{id}}" id='{{item.unit}}' bindtap="tabClick">
+      <view class="tab-item">{{item.name}}</view>
+    </view>
+</view>
+
+<view class="book-container">
+  <view class="book-box" wx:for="{{booklist}}" wx:key="{{id}}" data-id='{{item.id}}' bindtap="itemClick">
+    <image class="" src="{{item.images}}" background-size="cover"></image>
+    <text class='bookname'>{{item.name}}</text>
+    <text class='bookinfo'>{{item.intro}}</text>
+    <text class='author'>作者：{{item.author}}</text>
+    <text class='countdata' style='color:#4284ed;'>{{item.wordcount}}万字</text>
+    <text class='countdata'>{{item.serialize}}</text>   
+  </view>
+</view>
