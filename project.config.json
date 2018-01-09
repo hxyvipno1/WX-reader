@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.1",
 	"appid": "touristappid",
-	"projectname": "myprojectWX",
+	"projectname": "myproject",
 	"condition": {
 		"search": {
 			"current": -1,
