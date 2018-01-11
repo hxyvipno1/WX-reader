@@ -1,0 +1,30 @@
+.viewcontainer{
+  background-color: #e9dfc7;
+  padding:20rpx;
+
+}
+
+.title{
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin: 0 0 1em;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  background-color: #e9dfc7;
+  width: 750rpx;
+  text-align: center;
+}
+
+.content{
+    text-align: justify;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}

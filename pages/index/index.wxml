@@ -1,8 +1,10 @@
 <!--index.wxml-->
 <swiper indicator-dots autoplay interval="2000">
-   <swiper-item><image src="/images/simg.jpg"></image></swiper-item>
-   <swiper-item><image src="/images/img_info.jpg"></image></swiper-item>
-   <swiper-item><image src="/images/timg2.jpg"></image></swiper-item>
+   <swiper-item><image src="/images/1.jpg"></image></swiper-item>
+   <swiper-item><image src="/images/2.jpg"></image></swiper-item>
+   <swiper-item><image src="/images/3.jpg"></image></swiper-item>
+   <swiper-item><image src="/images/4.jpg"></image></swiper-item>
+   <swiper-item><image src="/images/5.jpg"></image></swiper-item>
 </swiper>
 <view class="tab-cantainer">
     <view class="tab-box {{ selectedbox==item.unit ? 'tab-box-active' : '' }}" wx:for-items="{{booktype}}" wx:key="{{id}}" id='{{item.unit}}' bindtap="tabClick">

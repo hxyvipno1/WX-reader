@@ -1,0 +1,11 @@
+<view class='viewcontainer' >
+  <view class='title'>{{title}}</view>
+  <view decode="{{true}}" class='content'>
+    {{content}}
+  </view>
+  <view style='text-align:center;'>
+    <button size='mini' type='default' bindtap="back" data-id='{{bookdetails.id}}' data-book='{{bookid}}' disabled='{{bookdetails.id==1?true:false}}'>上一章</button>
+    <button size='mini' type='warn' bindtap="go" data-id='{{bookdetails.id}}' data-book='{{bookid}}'>下一章</button>
+  </view>
+  
+</view>

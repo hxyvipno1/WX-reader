@@ -1,0 +1,3 @@
+<view class='titlecontainer'>
+  <view class='titlelist' wx:for="{{titleData}}" wx:key="id" data-id='{{item.id}}' data-book='{{item.book}}' bindtap='readClick'>{{item.title}}</view>
+</view>

@@ -1,0 +1,12 @@
+.titlecontainer{
+  padding: 20px;
+  background-color: #e9dfc7;
+}
+
+.titlelist{
+  line-height: 70rpx;
+  font-size: 30rpx;
+  border-bottom: 1px solid #736357;
+  height: 70rpx;
+  color: #555;
+}

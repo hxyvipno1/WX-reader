@@ -7,11 +7,16 @@
     <text>{{booksDetails.wordcount}} 万字</text>
   </view>
   <button size='mini' type='default' style='width:335rpx;margin-right:20rpx;' bindtap="readClick" data-id='{{booksDetails.id}}'>开始阅读</button>
-  <button size='mini' type='warn' style='width:335rpx;'>收藏</button>
+  <button size='mini' type='warn' style='width:335rpx;' bindtap="titleClick" data-id='{{booksDetails.id}}'>章节目录</button>
   <view class='bookinfo'>{{booksDetails.intro}}</view>
   <view class='tagcontainer'>
     <text class='bookname'>类别标签</text>
     <text class='tag'>{{booksDetails.type}}</text>
   </view>
-  
+  <view class='likecontainer' >
+    <view class='likebox' data-id='{{bookdata1.id}}'>
+      <image src='{{bookdata1.images}}'></image>
+      <text>{{bookdata1.name}}</text>
+    </view>
+  </view>
 </view>

@@ -1,0 +1,4 @@
+<template name="like-box">
+  <image src='{{image}}'></image>
+  <text>{{name}}</text>
+</template>
